@@ -1,0 +1,42 @@
+
+.container {
+    width: 200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+
+
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item:nth-child(2) {
+    background-color: springgreen;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    z-index: 2;
+}
+
+
+.item:nth-child(3) {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    z-index: 3;
+} 
